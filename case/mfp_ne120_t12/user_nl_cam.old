@@ -1,0 +1,9 @@
+nhtfrq = 0,  -24, -6
+mfilt  = 1,  365, 1460
+fincl2 = 'TS','PRECT','OMEGA850','Z500','Q'
+fincl3 = 'PSL:I','U850:I','V850:I','Z500:I','Z250:I','PRECT:I','UBOT:I','VBOT:I','ZBOT:I','U10:I','IVT:I','TMQ:I','FLUT:I'
+cldfrc_rhminl=0.92
+state_debug_checks=.false.
+phys_loadbalance=-1
+se_partmethod=4
+statefreq=10000

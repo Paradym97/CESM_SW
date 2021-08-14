@@ -1,0 +1,13 @@
+namelist_mod.F90:          print *,'HYPERVIS order = ',hypervis_order
+namelist_mod.F90:             print *,'analysis_nl namelist read returns an'// &
+namelist_mod.F90:    ! HOMME will run if if nthreads > max, but gptl will print out GB of warnings.
+namelist_mod.F90:       if(par%masterproc) print *,'omp_get_max_threads() = ',OMP_get_max_threads()
+namelist_mod.F90:       if(par%masterproc) print *,'requested threads exceeds OMP_get_max_threads()'
+namelist_mod.F90:        print *,'Both hypervis_power and hypervis_scaling are nonzero.'
+namelist_mod.F90:        print *,'(1) Set hypervis_power=1, hypervis_scaling=0 for HV based on an element area.'
+namelist_mod.F90:        print *,'(2) Set hypervis_power=0 and hypervis_scaling=1 for HV based on a tensor.'
+namelist_mod.F90:        print *,'(3) Set hypervis_power=0 and hypervis_scaling=0 for constant HV.'
+namelist_mod.F90:       print *
+namelist_mod.F90:          print *
+namelist_mod.F90:          print *
+namelist_mod.F90:          print *

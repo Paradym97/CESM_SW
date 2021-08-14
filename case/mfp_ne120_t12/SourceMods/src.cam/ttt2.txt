@@ -1,0 +1,312 @@
+cam_history.F90:   write(*,*)nhfil(t)
+cam_restart.F90:!write(*,*)"cam_read_restart 001"
+cam_restart.F90:!write(*,*)"cam_read_restart 002"
+cam_restart.F90:!write(*,*)"cam_read_restart 003"
+cam_restart.F90:!write(*,*)"cam_read_restart 004"
+cam_restart.F90:!write(*,*)"cam_read_restart 005"
+cam_restart.F90:!write(*,*)"cam_read_restart 006"
+cam_restart.F90:!write(*,*)"cam_read_restart 007"
+cam_restart.F90:!write(*,*)"cam_read_restart 008"
+cam_restart.F90:!write(*,*)"cam_read_restart 009"
+cam_restart.F90:!write(*,*)"cam_read_restart 010"
+cam_restart.F90:!write(*,*)"cam_read_restart 011"
+cam_restart.F90:!write(*,*)"cam_read_restart 012"
+cam_restart.F90:!write(*,*)"cam_read_restart 013"
+cam_restart.F90:!write(*,*)"cam_read_restart 014"
+cam_restart.F90:!write(*,*)"cam_read_restart 015"
+cam_restart.F90:!write(*,*)"cam_read_restart 016"
+cam_restart.F90:!write(*,*)"cam_read_restart 017"
+cam_restart.F90:!write(*,*)"cam_read_restart 018"
+chemistry.F90:!write(*,*)" chem 001"
+chemistry.F90:!write(*,*)" chem 002"
+chemistry.F90:!write(*,*)" chem 003"
+chemistry.F90:!write(*,*)" chem 004"
+chemistry.F90:!write(*,*)" chem 005"
+chemistry.F90:!write(*,*)" chem 006"
+chemistry.F90:!write(*,*)" chem 007"
+chemistry.F90:!write(*,*)" chem 008"
+chemistry.F90:!write(*,*)" chem 009"
+chemistry.F90:!write(*,*)" chem 010"
+chemistry.F90:!write(*,*)" chem 011"
+chemistry.F90:!write(*,*)" chem 012"
+chemistry.F90:!write(*,*)" chem 013"
+chemistry.F90:!write(*,*)" chem 014"
+chemistry.F90:!write(*,*)" chem 015"
+chemistry.F90:!write(*,*)" chem 016"
+chemistry.F90:!write(*,*)" chem 017"
+chemistry.F90:!write(*,*)" chem 018"
+chemistry.F90:!write(*,*)" chem 019"
+chemistry.F90:!write(*,*)" chem 020"
+chemistry.F90:!write(*,*)" chem 021"
+cldwat2m_macro.F90:                    write(*,*) sname,"NAN", i, k, in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname, "1st", mid, i, k, abs((in1(k,i) - in2(i,k)) / in2(i,k)), in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname,"2nd",  mid, i, k, abs((in1(k,i) - in2(i,k))), in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname,"NAN", i, k, in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname, i, k, abs((in1(k,i) - in2(i,k)) / in2(i,k)), in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname,"NAN", i, k, in1, in2
+cldwat2m_macro.F90:                    write(*,*) sname, i, k, abs((in1 - in2) / in2), in1, in2
+cldwat2m_macro.F90:                    write(*,*) sname,"NAN", i, k, in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    !write(*,*) sname, i, k,  in3(k,i), tmp1(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname, i, k, abs((in1(k,i) - in2(i,k)) / in2(i,k)), in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname,"NAN", i, k, in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname, i, k, abs((in1(k,i) - in2(i,k)) / in2(i,k)), in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname,"NAN", i, k, in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) "n0tend", i, k, abs((in3(k,i) - in5(i,k)) / in5(i,k)), in3(k,i), in5(i,k)
+cldwat2m_macro.F90:                    write(*,*) "n1tend", i, k, abs((in4(k,i) - in6(i,k)) / in6(i,k)), in4(k,i), in6(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname, i, k, abs((in1(k,i) - in2(i,k)) / in2(i,k)), in1(k,i), in2(i,k)
+cldwat2m_macro.F90:                    write(*,*) sname, i,  abs((in1(k,i) - in2(i)) / in2(i)), in1(k,i), in2(i)
+cldwat2m_macro.F90:    !write(*,*) "qmin is ", qmin(1), mmacro_pcond_para%qmin1, loc(mmacro_pcond_para%qmin1), loc(mmacro_pcond_para)
+cldwat2m_macro.F90:    !write(*,*) "qme addr1", loc(qme_trans(:,:))
+cldwat2m_macro.F90:    !write(*,*) "qme addr2", loc(qme_trans(:,:))
+cldwat2m_macro.F90:   !write(*,*) "qmin is ", qmin(1), mmacro_pcond_para%qmin1, loc(mmacro_pcond_para%qmin1), loc(mmacro_pcond_para)
+cldwat2m_macro.F90:   !write(*,*) "rhmin ", i_rhmini, i_rhminl
+cldwat2m_macro.F90:   !write(*,*) "spa", mmacro_pcond_para%spa1, mmacro_pcond_para%spa2
+cldwat2m_macro.F90:   !write(*,*) "top_lev", top_lev
+cube_mod.F90:          write(*,'(99i3)') (Mesh(i,j),i=1,ne)
+diffusion_solver.F90:!    write(*,*) "compute_vdiff chenyuhu 0",__FILE__,__LINE__
+diffusion_solver.F90:!    write(*,*) "compute_vdiff chenyuhu 1",__FILE__,__LINE__
+diffusion_solver.F90:    write(*,*) "chen_Coords  chenyuhu 0",__FILE__,__LINE__
+diffusion_solver.F90:    write(*,*) "chen_Coords  chenyuhu 1",__FILE__,__LINE__
+drv_input_data.F90:    write(*,*) "drv_input add by Butter open start"
+drv_input_data.F90:    write(*,*) "drv_input add by Butter open end"
+dyn_comp.F90:!       write(*,200) nets, nete
+dyn_comp.F90:!       write(*,200) nets, nete
+hybrid_mod.F90:    write(*,21) vname, hybt%par%rank, hybt%ithr, hybt%nthreads, &
+hybrid_mod.F90:    write(*,21) vname, hybt%par%rank, hybt%ithr, hybt%nthreads, &
+linear_1d_operators.F90:!  write(*,*) "new chen 0",__FILE__
+linear_1d_operators.F90:!  write(*,*) "new chen 1",__FILE__
+linear_1d_operators.F90:!  write(*,*) "new chen 2",__FILE__
+linear_1d_operators.F90:!    write(*,*) "wwwwwww"
+linear_1d_operators.F90:!    write(*,*) "qqqqq"
+linear_1d_operators.F90.wh:!  write(*,*) "new chen 0",__FILE__
+linear_1d_operators.F90.wh:!  write(*,*) "new chen 1",__FILE__
+linear_1d_operators.F90.wh:!  write(*,*) "new chen 2",__FILE__
+linear_1d_operators.F90.wh:!    write(*,*) "wwwwwww"
+linear_1d_operators.F90.wh:!    write(*,*) "qqqqq"
+micro_mg_data.F90:  !write(*,*) "printed by Asher in pack_1D",self%mgcols
+micro_mg_data.F90:  !write(*,*) "printed by Asher at the end of pack_1D"
+namelist_mod.F90:                write(*,'(10(a,2x))')"   analysis : variables ",(trim(output_varnames1(j)),j=1,max_output_variables)
+namelist_mod.F90:                write(*,'(10(a,2x))')"   analysis : variables ",(trim(output_varnames2(j)),j=1,max_output_variables)
+namelist_mod.F90:                write(*,'(10(a,2x))')"   analysis : variables ",(trim(output_varnames3(j)),j=1,max_output_variables)
+namelist_mod.F90:                write(*,'(10(a,2x))')"   analysis : variables ",(trim(output_varnames4(j)),j=1,max_output_variables)
+namelist_mod.F90:                write(*,'(10(a,2x))')"   analysis : variables ",(trim(output_varnames5(j)),j=1,max_output_variables)
+phys_grid.F90:    !write(*,*) "lbal_opt=", lbal_opt
+phys_grid.F90:    !write(*,*) "whether dynamics and physics need comm", local_dp_map
+phys_grid.F90:    !write(*,*) "chunkinit: myid,", myid, begchunk, endchunk
+phys_grid.F90:        !write(*,*) " in init function lbal_opt= ", lbal_opt
+phys_grid.F90:   !write(*,*) "block bounds", myid, firstblock, lastblock
+phys_grid.F90:          !write(*,*) "nsmps = ", nsmps
+phys_grid.F90:          !write(*,*) "proc_smp_mapx, p ==> smp"
+phys_grid.F90:          !  write(*,*) p, "==>", proc_smp_mapx(p)
+phys_grid.F90:   !write(*,*) "max_nproc_smpx", max_nproc_smpx
+phys_grid.F90:   !     write(*,*) "nsmpcolumns", smp, nsmpcolumns(smp)
+phys_grid.F90:      !      write(*,*) "nsmpthreads ", nsmpthreads(smp)
+phys_grid.F90:      !      write(*,*) "nsmpcolumns ", nsmpcolumns(smp)
+phys_grid.F90:      !write(*,*) "nsmpx is : ", nsmpx
+phys_grid.F90:      !write(*,*) "pcols is : ", pcols
+phys_grid.F90:      !write(*,*) "nchunks = ", nchunks
+phys_grid.F90:      !  write(*,*) "smp, chunks", smp, nsmpchunks(smp)
+phys_grid.F90:      !write(*,*) "firstblock, lastblock", firstblock, lastblock
+phys_grid.F90:         !    write(*,*) "block id and owner", jb, p
+physics_types.F90:    !write(*,*) "printed by in tendency 1",ptend%top_level,ptend%bot_level,ncol
+prim_driver_mod.F90:          write(*,'(a,99f10.6)') "dynamics: I-mu + mu*Tp(:) = ",&
+prim_driver_mod.F90:          write(*,'(a,99f10.6)') "advection: I-mu + mu*Tp(:) = ",&
+prim_driver_mod.F90:           !write(*,*) "In prim run there are ", omp_get_num_threads(), " in the current team in parallel region"
+prim_driver_mod.F90:            write(*,*) "nstep",tl%nstep,"dt_q=", dt_q, "maximum over all Level"
+prim_driver_mod.F90:            write(*,*) "CFL: maxcflx=", maxcflx, "maxcfly=", maxcfly
+prim_driver_mod.F90:             write(*,*) "nstep",tl%nstep,"dt_q=", dt_q, "maximum over all Level"
+prim_driver_mod.F90:             write(*,*) "CFL: maxcflx=", maxcflx, "maxcfly=", maxcfly
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 001"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 002"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 003"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 004"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 005"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 006"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 007"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 008"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 009"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 010"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 011"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 012"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 013"
+restart_dynamics.F90:!!write(*,*)"restart_dynamics 014"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 015"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 016"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 017"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 018"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 019"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 020"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 021"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 022"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 023"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 024"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 025"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 026"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 027"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 028"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 029"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 030"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 031"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 032"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 033"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 034"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 035"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 036"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 037"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 038"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 039"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 040"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 041"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 042"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 043"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 044"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 045"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 046"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 047"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 048"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 049"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 050"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 051"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 052"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 053"
+restart_dynamics.F90:!write(*,*)"restart_dynamics 054"
+rrtmg_sw_rad.f90:            write(*,*) "icpr is", icpr, "idelm is", idelm, "iout is", iout
+runtime_opts.F90:!write(*,*) "runtime 000"
+runtime_opts.F90:!write(*,*) "runtime 111"
+runtime_opts.F90:!write(*,*) "runtime 222"
+runtime_opts.F90:!write(*,*) "runtime 333"
+runtime_opts.F90:!write(*,*) "runtime 444"
+runtime_opts.F90:!write(*,*) "runtime 555"
+runtime_opts.F90:!write(*,*) "runtime 666"
+runtime_opts.F90:!write(*,*) "runtime 666555"
+runtime_opts.F90:!write(*,*) "runtime 777"
+runtime_opts.F90:!write(*,*) "runtime 888"
+runtime_opts.F90:!write(*,*) "runtime 999"
+runtime_opts.F90:!write(*,*) "runtime a001"
+runtime_opts.F90:!write(*,*) "runtime a002"
+runtime_opts.F90:!write(*,*) "runtime a003"
+runtime_opts.F90:!write(*,*) "runtime a004"
+runtime_opts.F90:!write(*,*) "runtime a005"
+runtime_opts.F90:!write(*,*) "runtime a006"
+runtime_opts.F90:!write(*,*) "runtime a007"
+runtime_opts.F90:!write(*,*) "runtime a008"
+runtime_opts.F90:!write(*,*) "runtime a009"
+runtime_opts.F90:!write(*,*) "runtime a010"
+runtime_opts.F90:!write(*,*) "runtime a011"
+runtime_opts.F90:!write(*,*) "runtime a012"
+runtime_opts.F90:!write(*,*) "runtime a013"
+runtime_opts.F90:!write(*,*) "runtime a01401"
+runtime_opts.F90:!write(*,*) "runtime a01402"
+runtime_opts.F90:!write(*,*) "runtime a01403"
+runtime_opts.F90:!write(*,*) "runtime a01404"
+runtime_opts.F90:!write(*,*) "runtime a01405"
+runtime_opts.F90:!write(*,*) "runtime a01406"
+runtime_opts.F90:!write(*,*) "runtime a01407"
+runtime_opts.F90:!write(*,*) "runtime a01408"
+runtime_opts.F90:!write(*,*) "runtime a01409"
+runtime_opts.F90:!write(*,*) "runtime a01410"
+runtime_opts.F90:!write(*,*) "runtime a01411"
+runtime_opts.F90:!write(*,*) "runtime a01412"
+runtime_opts.F90:!write(*,*) "runtime a01413"
+runtime_opts.F90:!write(*,*) "runtime a01414"
+runtime_opts.F90:!write(*,*) "runtime a01415"
+runtime_opts.F90:!write(*,*) "runtime a01416"
+runtime_opts.F90:!write(*,*) "runtime a01417"
+runtime_opts.F90:!write(*,*) "runtime a01418"
+runtime_opts.F90:!write(*,*) "runtime a01419"
+runtime_opts.F90:!write(*,*) "runtime a01420"
+runtime_opts.F90:!write(*,*) "runtime a01421"
+runtime_opts.F90:!write(*,*) "runtime a01422"
+runtime_opts.F90:!write(*,*) "runtime a01423"
+runtime_opts.F90:!write(*,*) "runtime a01424"
+runtime_opts.F90:!write(*,*) "runtime a01425"
+runtime_opts.F90:!write(*,*) "runtime a01426"
+runtime_opts.F90:!write(*,*) "runtime a01427"
+runtime_opts.F90:!write(*,*) "runtime a01428"
+runtime_opts.F90:!write(*,*) "runtime a01429"
+runtime_opts.F90:!write(*,*) "runtime a01430"
+runtime_opts.F90:!write(*,*) "runtime a01431"
+runtime_opts.F90:!write(*,*) "runtime a01432"
+runtime_opts.F90:!write(*,*) "runtime a01433"
+runtime_opts.F90:!write(*,*) "runtime a01434"
+runtime_opts.F90:!write(*,*) "runtime a01435"
+runtime_opts.F90:!write(*,*) "runtime a01436"
+runtime_opts.F90:!write(*,*) "runtime a01437"
+runtime_opts.F90:!write(*,*) "runtime a01438"
+runtime_opts.F90:!write(*,*) "runtime a01439"
+runtime_opts.F90:!write(*,*) "runtime a01440"
+runtime_opts.F90:!write(*,*) "runtime a01441"
+runtime_opts.F90:!write(*,*) "runtime a01442"
+runtime_opts.F90:!write(*,*) "runtime a01443"
+runtime_opts.F90:!write(*,*) "runtime a01444"
+runtime_opts.F90:!write(*,*) "runtime a01445"
+runtime_opts.F90:!write(*,*) "runtime a01446"
+runtime_opts.F90:!write(*,*) "runtime a01447"
+runtime_opts.F90:!write(*,*) "runtime a01448"
+runtime_opts.F90:!write(*,*) "runtime a01449"
+runtime_opts.F90:!write(*,*) "runtime a01450"
+runtime_opts.F90:!write(*,*) "runtime a015"
+runtime_opts.F90:!write(*,*) "runtime a016"
+runtime_opts.F90:!write(*,*) "runtime a017"
+runtime_opts.F90:!write(*,*) "runtime a018"
+runtime_opts.F90:!write(*,*) "runtime a109"
+spelt_mod.F90:    write(*,*) "Error in spelt_mod.F90: CFL number too big"
+spelt_mod.F90:    write(*,*) "CFL has to be < 1.0D0"
+spelt_mod.F90:    write(*,*) "Choose a smaller time step!"
+spelt_mod.F90:    write(*,*) "max CFL in this element: maxcflx", spelt%maxcfl(1,klev), "maxcfly", spelt%maxcfl(2,klev)
+spelt_mod.F90:!                  write(*,*) 'ERROR',spelt(ie)%c(i+1,j+1,k,itr,tl%n0),spelt(ie)%c(i+1,j+1,k,1,tl%np1)
+spelt_mod.F90:!                  write(*,*) flux
+spelt_mod.F90:!                 if (isnan(spelt(ie)%c(i+1,j+1,k,itr,tl%np1))) write(*,*) 'ERROR2',spelt(ie)%c(i+1,j+1,k,itr,tl%np1),spelt(ie)%c(i+1,j+1,k,1,tl%np1)
+spelt_mod.F90:! !              write(*,*) 'face', face_nodep, spelt%Facenumber
+spelt_mod.F90:!              write(*,*) 'alpha1',metric_term(alphabeta)
+spelt_mod.F90:!              write(*,*) 'alpha2',metric_term(alphabeta)
+spelt_mod.F90:! !              write(*,*) 'vor', spelt%contrau(i,j,k),spelt%contrav(i,j,k)
+spelt_mod.F90:! !              write(*,*) 'nach', spelt%contrau(i,j,k),spelt%contrav(i,j,k)
+spelt_mod.F90: !           write(*,*) i, cartx(i+1),cart4%x
+spelt_mod.F90:    write(*,*) 'Something is wrong in search!'
+spelt_mod.F90:    write(*,*) dref%x,dxcell, dref%y,dycell
+spelt_mod.F90:    write(*,*) 'icell, jcell,Something is wrong in search!'
+spelt_mod.F90:    write(*,*) '2 Something is wrong in search!'
+spelt_mod.F90:    write(*,*) number, elem%vertex%nbrs(1:tmp_i)
+spelt_mod.F90:    write(*,*) icell, jcell, elem%GlobalId, elem%FaceNum, face_nodep
+spelt_mod.F90:!    write(*,*) '3 Something is wrong in search!'
+spelt_mod.F90:!    write(*,*) number, elem%vertex%nbrs(1:tmp_i)
+spelt_mod.F90:!    write(*,*) dref
+spelt_mod.F90:!   write(*,*) dxcell, dycell
+spelt_mod.F90:     write(*,*)'ERROR: ',ie,je,ne
+spelt_mod.F90:     write(*,*)'lat,lon=',sphere%lat,sphere%lon
+spelt_mod.F90:     write(*,*)'face no=',face_no
+spelt_mod.F90:     write(*,*)xp,yp,dx,x1,x2,x1/dx,x2/dx
+spelt_mod.F90:  write(*,*) "add by chenyuhu@qnlm"
+viscosity_mod.F90:              write(*,'(a)') 'ERROR: div/div_wk integration by parts failure!'
+viscosity_mod.F90:              write(*,'(a,2i3,a,3e12.5)') 'for test function (i,j)=',i,j,' lhs,rhs=',lhs(i,j),rhs(i,j),lhs(i,j)-rhs(i,j)
+viscosity_mod.F90:              write(*,'(a)') 'ERROR: grad/grad_wk CONTRA (1) integration by parts failure!'
+viscosity_mod.F90:              write(*,'(a,2i3,a,4e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs(i,j),rhs(i,j),&
+viscosity_mod.F90:              write(*,'(a)') 'ERROR: grad/grad_wk CONTRA (2) integration by parts failure!'
+viscosity_mod.F90:              write(*,'(a,2i2,a,3e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs2(i,j),rhs2(i,j),lhs2(i,j)-rhs2(i,j)
+viscosity_mod.F90:              write(*,'(a)') 'ERROR: grad/grad_wk COV (1) integration by parts failure!'
+viscosity_mod.F90:              write(*,'(a,2i2,a,4e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs(i,j),rhs(i,j),lhs(i,j)-rhs(i,j),lhs(i,j)/rhs(i,j)
+viscosity_mod.F90:              write(*,'(a)') 'ERROR: grad/grad_wk COV (2) integration by parts failure!'
+viscosity_mod.F90:              write(*,'(a,2i2,a,3e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs2(i,j),rhs2(i,j),lhs2(i,j)-rhs2(i,j)
+viscosity_mod.F90:              write(*,'(a)') 'ERROR: curl/curl_wk COV (1) integration by parts failure!'
+viscosity_mod.F90:              write(*,'(a,2i2,a,4e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs(i,j),rhs(i,j),lhs(i,j)-rhs(i,j),lhs(i,j)/rhs(i,j)
+viscosity_mod.F90:              write(*,'(a)') 'ERROR: curl/curl_wk COV (2) integration by parts failure!'
+viscosity_mod.F90:              write(*,'(a,2i2,a,3e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs2(i,j),rhs2(i,j),lhs2(i,j)-rhs2(i,j)
+viscosity_mod.F90.bak:              write(*,'(a)') 'ERROR: div/div_wk integration by parts failure!'
+viscosity_mod.F90.bak:              write(*,'(a,2i3,a,3e12.5)') 'for test function (i,j)=',i,j,' lhs,rhs=',lhs(i,j),rhs(i,j),lhs(i,j)-rhs(i,j)
+viscosity_mod.F90.bak:              write(*,'(a)') 'ERROR: grad/grad_wk CONTRA (1) integration by parts failure!'
+viscosity_mod.F90.bak:              write(*,'(a,2i3,a,4e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs(i,j),rhs(i,j),&
+viscosity_mod.F90.bak:              write(*,'(a)') 'ERROR: grad/grad_wk CONTRA (2) integration by parts failure!'
+viscosity_mod.F90.bak:              write(*,'(a,2i2,a,3e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs2(i,j),rhs2(i,j),lhs2(i,j)-rhs2(i,j)
+viscosity_mod.F90.bak:              write(*,'(a)') 'ERROR: grad/grad_wk COV (1) integration by parts failure!'
+viscosity_mod.F90.bak:              write(*,'(a,2i2,a,4e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs(i,j),rhs(i,j),lhs(i,j)-rhs(i,j),lhs(i,j)/rhs(i,j)
+viscosity_mod.F90.bak:              write(*,'(a)') 'ERROR: grad/grad_wk COV (2) integration by parts failure!'
+viscosity_mod.F90.bak:              write(*,'(a,2i2,a,3e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs2(i,j),rhs2(i,j),lhs2(i,j)-rhs2(i,j)
+viscosity_mod.F90.bak:              write(*,'(a)') 'ERROR: curl/curl_wk COV (1) integration by parts failure!'
+viscosity_mod.F90.bak:              write(*,'(a,2i2,a,4e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs(i,j),rhs(i,j),lhs(i,j)-rhs(i,j),lhs(i,j)/rhs(i,j)
+viscosity_mod.F90.bak:              write(*,'(a)') 'ERROR: curl/curl_wk COV (2) integration by parts failure!'
+viscosity_mod.F90.bak:              write(*,'(a,2i2,a,3e12.4)') '(i,j)=',i,j,' lhs,rhs=',lhs2(i,j),rhs2(i,j),lhs2(i,j)-rhs2(i,j)
+zm_conv.F90:                    write(*,*) sname, i, k, in1(k,i),  in2(i,k)
+zm_conv.F90:                    write(*,*) sname, i, in1(1,i),  in2(i)
+zm_conv.F90:                    write(*,*) sname, i, in1(i),  in2(i)
+zm_conv.F90:                    write(*,*) sname, i, k, in1(k,ideep(i)),  in2(i,k)

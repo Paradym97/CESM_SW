@@ -1,0 +1,11 @@
+&modelio
+ diri = '/home/export/online3/cesm04/yman/cesm1_3_beta17_sehires31_newscripts/cases/bld/mfp.B1850C5.ne120_t12.sehires38.003.sunway/cpl'
+ diro = '/home/export/online3/cesm04/yman/cesm1_3_beta17_sehires31_newscripts/cases/run/mfp.B1850C5.ne120_t12.sehires38.003.sunway'
+ logfile = 'cpl.log.210617-190813'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'nothing'
+/

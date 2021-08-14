@@ -1,0 +1,9 @@
+!nhtfrq = 0,  -24, -6
+!mfilt  = 1,  365, 1460
+!fincl2 = 'TS','PRECT','OMEGA850','Z500','Q','U10','QREFHT','PRECC','FLNS','FSNS','LHFLX','SHFLX','PSL','PBLH','T200','T500','T850','U200','U500','U850','V200','V500','V850','Z200','Z500','Z850','OMEGA850','OMEGA200','OMEGA500','TREFHT','UBOT','VBOT'
+!fincl3 = 'PSL:I','U850:I','V850:I','Z500:I','Z250:I','PRECT:I','UBOT:I','VBOT:I','ZBOT:I','U10:I','IVT:I','TMQ:I','FLUT:I','U200','U500','V200','V500'
+cldfrc_rhminl=0.92
+state_debug_checks=.false.
+phys_loadbalance=-1
+se_partmethod=4
+statefreq=10000

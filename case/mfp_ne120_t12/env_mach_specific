@@ -1,0 +1,24 @@
+#! /bin/csh -f
+
+# -------------------------------------------------------------------------
+# USERDEFINED
+# Edit this file to add module load or other paths needed for the build
+# and run on the system.  Can also include general env settings for machine.
+# Some samples are below
+# -------------------------------------------------------------------------
+
+#source /opt/modules/default/init/csh
+#if ( $COMPILER == "pgi" ) then
+#  module load pgi
+#endif
+#module load netcdf
+
+#limit coredumpsize unlimited
+setenv OMP_STACKSIZE 256M
+setenv CCSMUSER $LOGNAME
+#setenv NETCDF /usr/local/tools/netcdf-pgi-4.1.3/
+setenv NETCDF /home/export/online3/cesm04/softwares/netcdf-sw-412
+setenv PNETCDF_PATH "/home/export/online3/cesm04/softwares/pnetcdf-sw-160"
+setenv LD_LIBRARY_PATH "$NETCDF/lib:$PNETCDF_PATH/lib:$LD_LIBRARY_PATH"
+setenv PATH "$NETCDF/bin:$PNETCDF_PATH/bin:$PATH"
+#setenv USER_INCLDIR '-I$(CASEROOT)/SourceMods/src.cam  -I$(CASEROOT)/SourceMods/src.cice -I$(CASEROOT)/SourceMods/src.clm -I$(CASEROOT)/SourceMods/src.docn -I$(CASEROOT)/SourceMods/src.drv -I$(CASEROOT)/SourceMods/src.gptl -I$(CASEROOT)/SourceMods/src.pop2 -I$(CASEROOT)/SourceMods/src.rtm -I$(CASEROOT)/SourceMods/src.sglc -I$(CASEROOT)/SourceMods/src.share -I$(CASEROOT)/SourceMods/src.swav'

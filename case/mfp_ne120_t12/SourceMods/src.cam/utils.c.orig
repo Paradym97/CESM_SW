@@ -1,0 +1,26 @@
+void athread_spawn_rrtmg_lw_(void *param)
+{
+    volatile long addr;
+    asm volatile(".globl slave_RRTMG_LW_1PARAM.in.RRTMG_LW_RAD_CPE");
+    asm volatile("ldl %0,slave_RRTMG_LW_1PARAM.in.RRTMG_LW_RAD_CPE($gp) !literal":"=r"(addr));
+    __real_athread_spawn(addr, param);
+}
+<<<<<<< HEAD
+
+void athread_spawn_modal_aero_sw_kern_(void *param)
+{
+    volatile long addr;
+    asm volatile(".globl slave_MODAL_AERO_SW_KERN.in.MODAL_AER_OPT_CPE");
+    asm volatile("ldl %0,slave_MODAL_AERO_SW_KERN.in.MODAL_AER_OPT_CPE($gp) !literal":"=r"(addr));
+    __real_athread_spawn(addr, param);
+}
+
+void athread_spawn_modal_aero_lw_kern_(void *param)
+{
+    volatile long addr;
+    asm volatile(".globl slave_MODAL_AERO_LW_KERN.in.MODAL_AER_OPT_CPE");
+    asm volatile("ldl %0,slave_MODAL_AERO_LW_KERN.in.MODAL_AER_OPT_CPE($gp) !literal":"=r"(addr));
+    __real_athread_spawn(addr, param);
+}
+=======
+>>>>>>> 306a4ca34d6a3658e9130092d161c4797cfb28aa

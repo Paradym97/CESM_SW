@@ -1,0 +1,11 @@
+r_ice = 1.5
+r_pnd = 1.5
+rsnw_melt_in =  500
+dT_mlt_in = 0.5
+fsnowrdg = 1.0
+!r_snw=1.75000002
+r_snw=1.75000000
+
+xndt_dyn = 2
+ndte = 120
+distribution_type='roundrobin'

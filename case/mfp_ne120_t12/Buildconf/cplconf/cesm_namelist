@@ -1,0 +1,4 @@
+&cpl_inparm 
+bfbflag = .true.
+
+/ 

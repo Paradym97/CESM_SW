@@ -1,0 +1,10 @@
+&pop2_inparm 
+
+clinic_distribution_type = 'spacecurve'
+tropic_distribution_type = 'spacecurve'
+lusemfp=.true.
+lwithoutSi2=.true.
+tavg_freq=1 1 
+tavg_freq_opt='nmonth' 'never'
+
+/ 

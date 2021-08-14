@@ -1,0 +1,24 @@
+create_newcase -compset B1850C5 -mach sunway -case ../cases/mfp.B1850C5.ne120_t12.sehires38.003.sunway -res ne120_t12 -compiler sw5c
+case created 2021-05-20 16:02:20
+build complete 2021-05-20 18:39:39
+cesm_setup -clean 2021-05-20 18:59:14
+ 
+build complete 2021-05-20 19:02:24
+build complete 2021-05-26 10:41:33
+run started 2021-05-26 10:45:06
+run started 2021-05-26 10:45:31
+build complete 2021-05-27 09:29:07
+run started 2021-05-27 09:43:26
+cesm_setup -clean 2021-06-17 10:11:46
+ 
+build complete 2021-06-17 10:32:17
+build complete 2021-06-17 11:17:22
+run started 2021-06-17 16:56:59
+run started 2021-06-17 16:57:32
+run started 2021-06-17 17:18:13
+run started 2021-06-17 17:20:00
+build complete 2021-06-17 18:04:35
+run started 2021-06-17 18:06:01
+run started 2021-06-17 18:24:15
+run started 2021-06-17 18:27:28
+run started 2021-06-17 19:08:13
